@@ -1,0 +1,31 @@
+<!-- ColorProj Logo SVG for README -->
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Rainbow gradient starting from focus -->
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000" />    <!-- Red -->
+      <stop offset="16.66%" stop-color="#ff8800" /> <!-- Orange -->
+      <stop offset="33.33%" stop-color="#ffff00" /> <!-- Yellow -->
+      <stop offset="50%" stop-color="#00ff00" />    <!-- Green -->
+      <stop offset="66.66%" stop-color="#0088ff" /> <!-- Blue -->
+      <stop offset="83.33%" stop-color="#4400ff" /> <!-- Indigo -->
+      <stop offset="100%" stop-color="#8800ff" />   <!-- Violet -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle border -->
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="2"/>    <!-- Rainbow arc: 276° to 331° where west is 0° -->
+  <!-- In SVG coordinates: west=180°, so 276° from west = 180°-276° = -96° (or 264°) -->
+  <!-- and 331° from west = 180°-331° = -151° (or 209°) -->
+  <path d="M 66.2 25.4 A 36 36 0 0 1 36.8 39.4" 
+        fill="none" 
+        stroke="url(#rainbow)" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="60" cy="60" r="3" fill="#666"/>
+  
+  <!-- Focus point indicator at rainbow start (276° from west) -->
+  <circle cx="66.2" cy="25.4" r="2" fill="#ff0000" opacity="0.8"/>
+</svg>

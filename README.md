@@ -1,5 +1,9 @@
 # ColorProj 🎨
 
+<div align="center">
+  <img src="assets/logo.svg" alt="ColorProj Logo" width="120" height="120" />
+</div>
+
 A beautiful React Native color picker app built with Expo - my journey into mobile app development.
 
 ## 💡 Project Inspiration
